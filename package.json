@@ -1,0 +1,39 @@
+{
+    "name": "simple-react-router-v4",
+    "version": "0.1.1",
+    "description": "React Boilerplate Component for npm",
+    "homepage": "https://github.com/Kolhar730/react-router-v4-simple.git",
+    "keywords": [
+        "React",
+        "Boilerplate",
+        "npm",
+        "React-Router"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Kolhar730/react-router-v4-simple.git"
+    },
+    "main": "./lib/ReactRouterv4Simple.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.6.0",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.21.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "path": "^0.12.7",
+        "prop-types": "^15.6.0",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^3.2.1"
+    }
+}
