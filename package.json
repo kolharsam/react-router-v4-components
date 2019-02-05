@@ -7,7 +7,9 @@
         "React",
         "Boilerplate",
         "npm",
-        "React-Router"
+        "React-Router",
+        "MDC Top-Bar",
+        "MDC Drawer"
     ],
     "repository": {
         "type": "git",
@@ -34,6 +36,7 @@
         "react": "^16.0.0",
         "react-dom": "^16.0.0",
         "webpack": "^4.5.0",
-        "webpack-cli": "^3.2.1"
+        "webpack-cli": "^3.2.1",
+        "react-router-dom": "4.1.1"
     }
 }

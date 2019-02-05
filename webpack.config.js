@@ -16,5 +16,12 @@ module.exports = {
                 use: 'babel-loader'
             }
         ]
-    }
+    },
+    devServer: {
+        historyApiFallback: true,
+    },
+    devtool: 'source-map',
+    stats: {
+        errorDetails: true
+    },
 }
