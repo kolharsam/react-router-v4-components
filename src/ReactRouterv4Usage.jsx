@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom';
-import Main from './helpers/main'
+import Main from './helpers/Main'
 
 class ReactRouterv4Usage extends React.Component {
     render () {
