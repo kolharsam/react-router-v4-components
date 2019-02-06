@@ -14,7 +14,7 @@ cd simple-react-router-v4
 yarn install or npm install
 
 // once this is done. to run the application. type...
-yarn start or npm run start
+yarn start or npm start
 ```
 
 Any queries / suggestions can be put up in the issues section.
