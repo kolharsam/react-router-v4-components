@@ -1,7 +1,7 @@
 ## Simple React-Router-v4 boilerplate
 
 This is a simple application built using React-Router-v4 and all of the source is present above.
-This application was bootstrapped with ```create-react-app```
+This application was bootstrapped with ```react-apps```
 
 Just clone the repo. 
 
