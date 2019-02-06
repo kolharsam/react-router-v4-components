@@ -8,7 +8,7 @@ Just clone the repo.
 To see the output. You can follow the steps down below.
 
 ```
-cd react-apps/simple-react-router-v4
+cd simple-react-router-v4
 
 // depending on what you use. npm / yarn
 yarn install or npm install
