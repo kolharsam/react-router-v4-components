@@ -6,8 +6,8 @@ const ClubInformation = () => (
     <div>
         <ul>
             {
-                ClubsAPI.all().map(club => (
-                    <li key={club.name + club.position}>
+                ClubsAPI.getAll().map(club => (
+                    <li key={club.name + club.position} style={{listStyleType: 'decimal', padding: '10px'}}>
                         <Link to={`/teams/${club.position}`}>{club.name}</Link>
                     </li>
                 ))
