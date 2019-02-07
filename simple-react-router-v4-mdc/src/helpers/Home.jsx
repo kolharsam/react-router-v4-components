@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Home = () => (
-    <div>
+    <React.Fragment>
         <h1>Welcome to the Premier League Clubs Website!</h1>
-    </div>
+    </React.Fragment>
 )
 
 export default Home

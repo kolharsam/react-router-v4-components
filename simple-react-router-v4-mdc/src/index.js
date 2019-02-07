@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactRouterv4Simple from './ReactRouterv4Simple';
+import ReactRouterv4MDC from './ReactRouterv4MDC';
 
-ReactDOM.render(<ReactRouterv4Simple />, document.getElementById('root'));
+ReactDOM.render(<ReactRouterv4MDC />, document.getElementById('root'));
