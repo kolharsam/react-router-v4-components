@@ -5,13 +5,10 @@ import MaterialIcon from '@material/react-material-icon';
 import IconButton from '@material/react-icon-button'
 import List, {ListItem, ListItemGraphic, ListItemText} from '@material/react-list';
 
-// include imports for drawer, list, material icon and top app bar styles
-import '@material/react-top-app-bar/dist/top-app-bar.css';
-import "@material/react-drawer/dist/drawer.css";
-import '@material/react-material-icon/dist/material-icon.css';
-import '@material/react-list/dist/list.css';
-import '@material/react-icon-button/dist/icon-button.css';
+
+// included all imports for drawer, list, material icon and top app bar styles in here
 import './App.css';
+import './index.css';
 
 class App extends Component {
   constructor(props) {
@@ -37,8 +34,28 @@ class App extends Component {
          <DrawerContent>
              <List singleSelection selectedIndex={this.state.selectedIndex}>
               <ListItem>
-                <ListItemGraphic graphic={<MaterialIcon icon='folder'/>} />
-                <ListItemText primaryText='Mail' />
+                <ListItemGraphic graphic={<MaterialIcon icon='security'/>} />
+                <ListItemText primaryText='Liverpool' />
+              </ListItem>
+              <ListItem>
+                <ListItemGraphic graphic={<MaterialIcon icon='star'/>} />
+                <ListItemText primaryText='Manchester City' />
+              </ListItem>
+              <ListItem>
+                <ListItemGraphic graphic={<MaterialIcon icon='star_border'/>} />
+                <ListItemText primaryText='Tottenham Hotspur' />
+              </ListItem>
+              <ListItem>
+                <ListItemGraphic graphic={<MaterialIcon icon='sentiment_satisfied'/>} />
+                <ListItemText primaryText='Chelsea' />
+              </ListItem>
+              <ListItem>
+                <ListItemGraphic graphic={<MaterialIcon icon='thumb_up_alt'/>} />
+                <ListItemText primaryText='Manchester United' />
+              </ListItem>
+              <ListItem>
+                <ListItemGraphic graphic={<MaterialIcon icon='thumb_down_alt'/>} />
+                <ListItemText primaryText='Arsenal' />
               </ListItem>
             </List>
          </DrawerContent>
@@ -50,12 +67,7 @@ class App extends Component {
 
         <TopAppBar
             title='Premier League Clubs'
-            style = {
-                {
-                    backgroundColor: '#00ff85',
-                    color: '#e90052'
-                }
-            }
+            style = {{backgroundColor: '#00ff85', color: '#e90052'}}
             navigationIcon={<IconButton onClick={() => this.setState({open: !this.state.open})}>
                 <MaterialIcon icon="menu" style={{color: '#e90052'}} />
             </IconButton>}

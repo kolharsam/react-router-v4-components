@@ -1,11 +1,5 @@
-.drawer-container {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.drawer-app-content {
-    flex: auto;
-    overflow: auto;
-}
+@import url('../node_modules/@material/react-top-app-bar/dist/top-app-bar.css');
+@import url("../node_modules/@material/react-drawer/dist/drawer.css");
+@import url('../node_modules/@material/react-material-icon/dist/material-icon.css');
+@import url('../node_modules/@material/react-list/dist/list.css');
+@import url('../node_modules/@material/react-icon-button/dist/icon-button.css');
