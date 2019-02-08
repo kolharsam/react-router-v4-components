@@ -1,6 +1,6 @@
 # React-Router-v4-Components
 
-This repository has the source for 2 Basic React Components with React Router v4.
+This repository has the source for 2 Basic React Components powered by [React Router v4](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom).
 
 Both my examples are very similar and are built around the same data, that is of Premier League Clubs.
 
