@@ -23,6 +23,16 @@ yarn start or npm start
 
 #### ⚠ Warning: The above link for the demo of the Simple React Router v4 Component with MDC has some errors currently. I'd please request you to clone, install dependencies and then see the output on your system.
 
+### The following information is regarding the [issue](https://github.com/Kolhar730/react-router-v4-simple-and-mdc/issues/2)
+
+This is how it is supposed to be: (this is on my local system)
+
+![alt text](./og.png)
+
+This is how it currently is: (when the current sour)
+
+![alt text](./current.png)
+
 Any queries / suggestions can be put up in the issues section.
 
 Danke.
