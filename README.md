@@ -15,6 +15,6 @@ The demo's of the 2 components can be seen here:
 2. A Simple React Router v4 Component built with MDC Top App Bar and Drawer. [Demo]()
 
 Please be sure to leave any comments/suggestions you have for me in the Issues section/PR section.
-PR's are always welcome. And I'd love to know if they were helpful to any of you. 
+PR's are always welcome. And I'd love to know if they were helpful to any of you.
 
 Thanks!
